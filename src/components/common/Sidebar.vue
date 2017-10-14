@@ -27,27 +27,41 @@
                     {
                         icon: 'el-icon-setting',
                         index: 'readme',
-                        title: '自述'
+                        title: '用水实时监管',
+                        subs: [
+                            {
+                                icon: 'el-icon-star-on',
+                                index: 'basetable',
+                                title: '校园南区'
+                            },
+                            {
+                                icon: 'el-icon-star-on',
+                                index: 'vuetable',
+                                title: '中蓝公寓'
+                            }
+                        ]
                     },
                     {
                         icon: 'el-icon-menu',
                         index: '2',
-                        title: '表格',
+                        title: '用水统计分析',
                         subs: [
                             {
+                                icon: 'el-icon-star-on',
                                 index: 'basetable',
-                                title: '基础表格'
+                                title: '校园南区'
                             },
                             {
+                                icon: 'el-icon-star-on',
                                 index: 'vuetable',
-                                title: 'Vue表格组件'
+                                title: '中蓝公寓'
                             }
                         ]
                     },
                     {
                         icon: 'el-icon-date',
                         index: '3',
-                        title: '表单',
+                        title: '日需水量预测',
                         subs: [
                             {
                                 index: 'baseform',
