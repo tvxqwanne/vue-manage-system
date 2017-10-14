@@ -26,17 +26,27 @@
                 items: [
                     {
                         icon: 'el-icon-setting',
-                        index: 'readme',
+                        index: '1',
                         title: '用水实时监管',
                         subs: [
                             {
                                 icon: 'el-icon-star-on',
                                 index: 'basetable',
-                                title: '校园南区'
+                                title: '校园南区',
+                                subs: [
+                                    {
+                                        index: 'basetable',
+                                        title: '科学楼'
+                                    },
+                                    {
+                                        index: 'basetable',
+                                        title: '第三教学楼'
+                                    }
+                                ]
                             },
                             {
                                 icon: 'el-icon-star-on',
-                                index: 'vuetable',
+                                index: 'basetable',
                                 title: '中蓝公寓'
                             }
                         ]
@@ -49,7 +59,17 @@
                             {
                                 icon: 'el-icon-star-on',
                                 index: 'basetable',
-                                title: '校园南区'
+                                title: '校园南区',
+                                subs: [
+                                    {
+                                        index: 'stat/south/1',
+                                        title: '科学楼'
+                                    },
+                                    {
+                                        index: 'basetable',
+                                        title: '第三教学楼'
+                                    }
+                                ]
                             },
                             {
                                 icon: 'el-icon-star-on',
